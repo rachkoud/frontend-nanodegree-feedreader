@@ -92,10 +92,9 @@ $(function() {
             });
         });
 
-        it('has loaded at least one .entry in the the .feed container', function(done) {
+        it('has loaded at least one .entry in the the .feed container', function() {
             var entries = document.querySelectorAll('.feed .entry-link');
             expect(entries.length).toBeGreaterThan(0);
-            done();
         });
     });
 
