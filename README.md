@@ -1,4 +1,5 @@
-# Project Overview
+RSS Feeds Reader
+================
 
 This project is part of the [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001). In this project, I was given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, he has already included [Jasmine](http://jasmine.github.io/) and even started writing his first test suite! Unfortunately, he decided to move on to start his own company and I was left with an application with an incomplete test suite.
 
@@ -32,20 +33,28 @@ To finalize the project, I added tests for the following components :
 * New Feed Selection
     * Write a test that ensures when a new feed is loaded by the loadFeed function that the content actually changes. Remember, loadFeed() is asynchronous.
 
-# Try it
+# Demo
 
 [Try it!](http://rachkoud.github.io/frontend-nanodegree-feedreader/index.html)
 
 At the bottom of the app, you should see that all the above tests have passed.
 
-##Installation
+# Quickstart
+
+### Install
 This will run the server on http://localhost:1111/ from the root directory
 
     npm install
     gulp
 
-##Development
+### Development
 
     gulp
 
 This will run the webserver from the root directory with livereload
+
+### License
+
+`RSS Feeds Reader` is a public domain work, dedicated using
+[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Feel free to do
+whatever you want with it.
